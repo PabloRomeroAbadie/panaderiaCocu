@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sitio de la panaderia cocu" />
+    <meta name="author" content="Emilse" />
+    <meta name="keywords" content="brownie, pan, facturas" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6e90fa897f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Panaderia Cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="Logo de cocu"
+              width="100"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+   <main>
+    <nav aria-label="breadcrumb" class="bg-light">
+        <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+          <li class="breadcrumb-item"><a href="productos.html">productos</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Medialuna</li>
+        </ol>
+    </div>
+      </nav>
+       <section class="my-5 container bg-light ">
+           <h1 class="display-2 text-center">Croissant</h1>
+           <hr>
+           <article class="row">
+               <div class="col-sm-12 col-md-6">
+                   <img class="w-100" src="../img/productos/Croissant_00018_portfolio1.jpg" alt="Medialuna">
+               </div>
+               <div class="col-sm-12 col-md-6">
+                   <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore rerum reiciendis, beatae iste iure nam? Ut aperiam fugit accusantium molestiae id eum vero doloremque obcaecati. Voluptatibus nemo praesentium consectetur!</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, mollitia saepe impedit sapiente delectus aspernatur cum ea sed? Nam iure, exercitationem libero debitis officia deserunt quasi nesciunt eius id blanditiis!</p>
+               </div>
+           </article>
+           <div class="alert alert-info my-3" role="alert">
+            <p>Promocion 12 medialunas a $150</p>   
+          </div>
+       </section>
+   </main>
+    <!-- Modal de producto-->
+<div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="tituloModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tituloModal">Tarta de chocolate</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="../img/productos/Torta-de-chocolate_00098_portfolio.jpg" alt="tarta de chocolate" class="w-100">
+          <p class="mt-2"> <span class="fw-bold">Precio:</span> $200</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="bg-dark">
+      <section class="container">
+        <article class="row py-5">
+        <div class="col-sm-12 col-md-4">
+          <img class="w-50" src="../img/cocu_logo-450.png" alt="logo panaderia Cocu">
+        </div>
+        <div class="col-sm-12 col-md-4 ">
+          <p class="text-white fw-bold">Horarios de Atencion</p>
+          <p class="text-white-50">Lunes a viernes: 09hs-18hs</p>
+          <p class="text-white-50">Sabado, domingo y feriados: 09hs-14hs</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <p class="text-white fw-bold">Seguinos en nuestras redes</p>
+          <i class="fab fa-facebook-square text-white fa-2x"></i>
+          <i class="fab fa-twitter-square text-white fa-2x px-2"></i>
+          <i class="fab fa-instagram-square text-white fa-2x"></i>
+
+        </div>
+      </article>
+      
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
